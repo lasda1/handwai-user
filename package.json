@@ -1,0 +1,35 @@
+{
+  "name": "handwai-user",
+  "version": "1.0.1",
+  "description": "user Management",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "bluebird": "*",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.4",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.9",
+    "mongoose-relationship": "^0.1.5",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.6.3",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "nodemon": "^1.18.10",
+    "passport": "*",
+    "passport-jwt": "*",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "twig": "^1.13.2",
+    "xoauth2": "^1.2.0"
+  },
+  "license": "ISC"
+}
